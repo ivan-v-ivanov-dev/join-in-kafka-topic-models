@@ -5,7 +5,8 @@ import com.join_in.kafka_models.KafkaMessage;
 import java.util.List;
 
 public record Post(
-        String identity,
+        String profileIdentity,
+        String groupIdentity,
         String content,
         byte[] imageBytes,
         String youtubeUrl,
